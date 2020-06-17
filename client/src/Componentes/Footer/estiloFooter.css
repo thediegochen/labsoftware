@@ -1,0 +1,71 @@
+.fundoFooter{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+.footerSuperior{
+	width: 80%;
+	height: 40%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-content: center;
+}
+.footerSuperior .col1{
+	width: 100%;
+	height: 100%;
+}
+.footerSuperior .col2{
+    width: 100%;
+	height: 100%;
+	background-color: white;	
+}
+.footerSuperior .col3{
+    width: 100%;
+	height: 100%;
+}
+.footerSuperior .col4{
+    width: 100%;
+	height: 100%;
+}
+.footerSuperior .conteudoContato .colunas2 .col1{
+	width: 50%;
+	height: auto;
+}
+.footerSuperior .conteudoContato .colunas2 .col2{
+	width: 100%;
+	height: auto;
+	font-size: 13px;
+	margin-left: -70px;
+}
+.footerSuperior .conteudoEmpresa .linhas, .footerSuperior .conteudoRedes .linhas {
+	margin-top: 7px;
+	font-size: 13px;
+}
+.footerInferior{
+	width: 100%;
+	height: 60%;
+	background-image: url("../../imagem/fundo_baixo2.png");
+	display: flex;
+	flex-direction: row;
+}
+.footerInferior .col1{
+	width: 100%;
+	height: 100%;
+}
+.footerInferior .col2{
+	width: 100%;
+	height: 100%;
+}
+.footerInferior .col1 img{
+	margin-left: 25%;
+	width: 50%;
+	height: 85%;
+	margin-top: 30px; 
+}
+.footerInferior .col2 img{
+	margin-left: 25%;
+	width: 50%;
+	height: 100%;	
+}

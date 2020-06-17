@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','poppins',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EBF5FE;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.colunas2{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.colunas2S{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.colunas2-page{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.colunas3{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.colunas4{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 11% 11% 11% 57%;
+}
+.colunas4-Header{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 11% 11% 11% 57%;
+}
+.colunas5{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 11% 11% 11% 11% 56%;
+}
+.colunas6{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 10% 10% 20% 20% 25% 15%;
+}
+.linhas{
+  width: 100%;
+  height: auto;
+}
+.linhasCard{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}

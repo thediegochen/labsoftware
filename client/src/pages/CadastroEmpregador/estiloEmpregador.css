@@ -1,0 +1,122 @@
+.alinhamentoEmpregador{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.alinhamentoEmpregador .empregadorSuperior{
+    width: 100%;
+    height: 40px;
+    margin-left: 0%;
+}
+.empregadorSuperior .colunas2-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.empregadorSuperior .colunas2-page .col1{
+    width: 100%;
+    height: 100%;
+}
+.empregadorSuperior .colunas2-page .col2{
+    width: 100%;
+    height: 100%;
+    font-size: 150%;
+    font-weight: 600;
+    color: #A174DB;
+    text-align: center;
+}
+.empregadorInferior .colunas2-page .col1{
+    width: 100%;
+    height: 90%;
+}
+.empregadorInferior .colunas2-page .col2{
+    width: 100%;
+    height: 90%;
+}
+.empregadorInferior .colunas2-page .col1 img{
+    width: 70%;
+    height: 90%;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: white;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);     
+}
+.empregadorInferior .colunas2-page .col2 .card{
+    position: relative;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+}
+.empregadorInferior .colunas2-page .col2 .card .cardEmpregadorSuperior{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}  
+.empregadorInferior .bola {
+    border-radius: 50%;
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    border: 1px solid #A174DB;
+    background-color: #A174DB;
+    box-shadow: inset -10px -10px 10px #A174DB, inset 3px 3px 5px #A174DB;
+    margin-bottom: 20px;
+    margin-left: -75px;
+}
+.fisica{
+    margin-top: 1%;
+    font-size: 14px;
+    border: 0px;
+    background-color: white;
+    outline: 0px;
+    cursor: pointer;
+    border-bottom: 0px;
+} 
+.juridica{
+    margin-left: 3%;
+    font-size: 14px;
+    border: 0px;
+    background-color: white;
+    outline: 0px;
+    cursor: pointer;
+    border-bottom: 0px;
+} 
+.fisica:focus{
+    color: #A174DB;
+}
+.juridica:focus{
+    color: #A174DB;
+}
+.empregadorInferior .colunas2-page .col2 .card .cardEmpregadorMeio{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+}
+.empregadorInferior .colunas2-page .col2 .card .cardEmpregadorMeio2{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    display: flex;
+}
+.empregadorInferior .colunas2-page .col2 .card .cardEmpregadorFinal{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 3px;
+    display: flex;
+    text-align: center;
+}
+.cardEmpregadorFinal label{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}

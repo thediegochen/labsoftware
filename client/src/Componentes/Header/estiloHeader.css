@@ -1,0 +1,232 @@
+.fundoHeader{
+    width: 100%;
+    height: 80px;
+    background-color: #EBF5FE;
+}
+.alinhamentoHeader{
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+}
+.alinhamentoHeader .colunas2 .col1{
+    width: 18%;
+    height: 80px;
+}
+.alinhamentoHeader .colunas2 .col1 img{
+    width: 100%;
+    height: 90px;
+    margin-left: -3%;
+    margin-top: -5%;
+}
+.alinhamentoHeader .colunas2 .col2{
+    width: 182%;
+    height: 80px;
+    margin-left: -82%;
+    text-align: right;
+}
+.alinhamentoHeader .alinahmentoTexto{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.bolaLogin {
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    width: 10%;
+    height: 75%;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: inset 30px 30px 30px white, inset 30px 30px 50px white;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+.barra{
+    background-color: white;
+    width: 200px;
+    height: 35%;
+    margin-top: 0%;
+    margin-left: 28%;
+    position: absolute;
+    transition: all .2s linear ;
+    text-align: center;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+}
+.link{
+    position: relative;
+    font-size: 12px;
+    transition: all .2s linear;
+    color: black;
+}
+.email{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color:#A174DB;
+}
+nav .linhas{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+nav .email-linhas{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+nav .bolaLogin{
+   margin-left: 31%;
+   margin-top: 7%;
+   border: 2px solid #A174DB;
+   margin-bottom: 0%;
+}
+#check:checked ~ .barra{
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+}
+nav .linhas:hover {
+    background-color: #EBF5FE;
+}
+
+/*Header Principal*/
+.alinhamentoHeader .alinahmentoTexto .colunas2 .col2 .colunas6{
+    width: 94%;
+    height: 100%;
+    text-align: center;
+    margin-left: 5%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas6 label{
+    cursor: pointer;
+}    
+.alinahmentoTexto .colunas2 .col2 .colunas6 .col3{
+    margin-top: 30%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas6 .col4{
+    margin-top: 30%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas6 .col5{
+    margin-top: 15%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas6 .col6{
+    margin-top: 15%;
+    text-align: center;
+    margin-left: -30%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas6 .col7{
+    margin-top: 8%;
+    text-align: right;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas2 .col7 button{
+    text-align: center;
+    top: -1px;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas6 .col8{
+    margin-top: 14.5%;
+    text-align: right;
+}
+.alinahmentoTexto label:hover, .alinahmentoTexto link:hover{
+    opacity: 0.75;
+    color: #A174DB;
+}
+.botaoDeLoginCadastro{
+    position: relative;
+    width: 70%;
+    height: 40px;
+    margin-top: 1%;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #A174DB;
+    outline: 0;
+}
+.botaoDeLoginCadastro:hover{
+   opacity: 0.75;
+   transform: translate3d(10px, 0 , 0);
+   transition: all 0.50s;
+}
+
+.colunas6 .col8 .botaoDeLoginCadastro{
+    background-color: #49BE55;
+    width: 78%;
+}
+/*Header Empregador*/
+.alinhamentoHeader .alinahmentoTexto .colunas2 .col2 .colunas5{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-left: 15%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas5 label{
+    cursor: pointer;
+} 
+.alinahmentoTexto .colunas2 .col2 .colunas5 .col3{
+    margin-top: 33%; 
+    margin-left: -210%;
+}   
+.alinahmentoTexto .colunas2 .col2 .colunas5 .col4{
+    margin-top: 33%; 
+    margin-left: -155%; 
+}
+.alinahmentoTexto .colunas2 .col2 .colunas5 .col5{
+    margin-top: 33%; 
+    margin-left: -95%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas5 .col6{
+    margin-top: 33%; 
+    margin-left: -85%; 
+}
+.alinahmentoTexto .colunas2 .col2 .colunas5 .col7{
+    margin-top: 3%;
+    margin-right: 10%;
+    text-align: right;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas5 .col7 .bolaLogin{
+    width: 12%;
+    height: 80%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas5 .col7 .barra{
+    margin-left: 23.5%;
+}
+/* Header Empregado*/
+.alinhamentoHeader .alinahmentoTexto .colunas2 .col2 .colunas4-Header{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-left: 15%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas4-Header label{
+    cursor: pointer;
+}    
+.alinahmentoTexto .colunas2 .col2 .colunas4-Header .col3{
+    margin-top: 33%; 
+    margin-left: -215%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas4-Header .col4{
+    margin-top: 33%; 
+    margin-left: -215%;
+}
+.alinahmentoTexto .colunas2 .col2 .colunas4-Header .col5{
+    margin-top: 33%;
+    margin-left: -205%;  
+}
+.alinahmentoTexto .colunas2 .col2 .colunas4-Header .col6{
+    margin-top: 3%;
+    text-align: right;
+}
